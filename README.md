@@ -1,16 +1,41 @@
-# Title
+# Reviewing HTML Manipulation
 
-## Learning Goals
+Use the following markup to answer the questions below.
 
--SWBAT 1
--SWBAT 2
+```html
+<body>
+  <section>
+    <h1 id="section-heading">Best Dinosaurs</h1>
+    <ul>
+      <li class="carnivore-link"><a href="http://dinosaurpictures.org/Velociraptor-pictures">Velociraptor</a></li>
+      <li class="carnivore-link"><a href="http://dinosaurpictures.org/Tyrannosaurus-pictures">Tyrannosaurus</a></li>
+      <li class="herbivore-link"><a href="http://dinosaurpictures.org/Diplodocus-pictures">Diplodocus</a></li>
+      <li class="herbivore-link"><a href="http://dinosaurpictures.org/Apatosaurus-pictures">Apatosaurus</a></li>
+      <li class="herbivore-link"><a href="http://dinosaurpictures.org/Triceratops-pictures">Triceratops</a></li>
+    </ul>
+  </section>
+</body>
+```
 
-## Introduction
+Q: What code would we write to remove the section heading?
+A:
 
-## SWBAT 1
+```javascript
+var heading = document.getElementById('section-heading')
+heading.remove()
+```
 
-## SWBAT 2
+Q: What code would we write to create a new `p` element and add it to the page?
+A:
 
-## Conclusion
+```javascript
+var p = document.createElement("p")
+document.body.appendChild(p)
+```
 
-## Resources
+Q: What code would we write to change the class of the first `li.herbivore-link` to "red"?
+A:
+
+```javascript
+document.querySelector('.herbivore-link').className = "red"
+```
