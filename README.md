@@ -21,7 +21,10 @@ Answer the questions below using the following code example.
 
 ?: Which of the following declarations will create a variable whose content can be changed?
 
-[X] `var lunchOrder = “tofu”` [X] `let lunchOrder = “soup”` [ ] `const lunchOrder = “rock salt”`
+[ ] 1
+[x] 15
+[ ] 14
+[x] 17
 
 ?: Given a method called `razzle`, How do you trigger its behavior? Select all that apply:
 
