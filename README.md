@@ -31,23 +31,37 @@ Answer the questions below using the following code example.
 
 ?: In the HTML snippet above, select all JavaScript commands which would select the node containing the text “Poodle.”
 
-[X] `document.querySelector(“#dog”)` [X] `document.querySelectorAll(“span”)[0]` [X] `document.getElementById(“dog”)` [ ] `document.getElementById(“#dog”)`
+[X] `document.querySelector(“#dog”)`
+[X] `document.querySelectorAll(“span”)[0]`
+[X] `document.getElementById(“dog”)`
+[ ] `document.getElementById(“#dog”)`
 
 ?: In the HTML snippet above, select all JavaScript commands which would select the `<li>` nodes.
 
-[X] `document.querySelectorAll(“li”)` [X] `document.querySelectorAll(“ul > li”)` [X] `document.querySelectorAll(“ul li”)` [X] `document.getElementsByTagName(“li”)`
+[X] `document.querySelectorAll(“li”)`
+[X] `document.querySelectorAll(“ul > li”)`
+[X] `document.querySelectorAll(“ul li”)`
+[X] `document.getElementsByTagName(“li”)`
 
 ?: How can we change the text of the node with the `id` of “dog” to be set to “Byron”?
 
-[X] `document.querySelector(“#dog”).textContent = "Byron";` [ ] `document.querySelectorAll(“span[0]”).textContent = "Byron";` [X] `document.querySelector(“#dog”).textContent = "Byron";` [ ] `document.getElementsByClass(“span”)[0].textContent = “Byron”`
+[X] `document.querySelector(“#dog”).textContent = "Byron";`
+[ ] `document.querySelectorAll(“span[0]”).textContent = "Byron";`
+[X] `document.querySelector(“#dog”).textContent = "Byron";`
+[ ] `document.getElementsByClass(“span”)[0].textContent = “Byron”`
 
 ?: Talk about bad ideas, king cobras are not good pets. How can we remove the `span` with the `id` “king-cobra”?
 
-[ ] `document.querySelector("span").delete(“#king-cobra”)` [X] `x = document.querySelector(“span#king-cobra”); y = x.parentNode; y.removeChild(x)` [ ] `x = document.querySelector(“span#king-cobra”); y = x.parentNode(); y.removeChild(x) document.querySelector(“ul”).removeChild(“span#king-cobra”);`
+[ ] `document.querySelector("span").delete(“#king-cobra”)`
+[X] `x = document.querySelector(“span#king-cobra”); y = x.parentNode; y.removeChild(x)`
+[ ] `x = document.querySelector(“span#king-cobra”); y = x.parentNode(); y.removeChild(x) document.querySelector(“ul”).removeChild(“span#king-cobra”);`
 
 ?: We’ve been inundated by cat owners who are angry that we have missed their favorite species of pet.
 
-[ ] `document.getElementsByTagName(“ul”)[0].write(“<li><span id=\”cat\”>Nancy Drew (the cat)</span></li>”);` [X] `base = document.getElementsByTagName(“ul”)[0]; item = document.createElement(“li”); s = document.createElement(“span”); s.id = “cat”; s.textContent = “Nancy Drew (the cat)”; item.appendChild(s); base.appendChild(item)` [X] `base = document.getElementsByTagName(“li”)[0].parentNode; item = document.createElement(“li”); s = document.createElement(“span”); s.id = “cat”; s.textContent = “Nancy Drew (the cat)”; item.appendChild(s); base.appendChild(item)` [ ] `base = document.getElementsByTagName(“li”)[0].parentNode; item = document.createElement(“li”); s = document.createElement(“span#cat”); s.textContent = “Nancy Drew (the cat)”; item.addChild(s); base.addChild(item)`
+[ ] `document.getElementsByTagName(“ul”)[0].write(“<li><span id=\”cat\”>Nancy Drew (the cat)</span></li>”);` 
+[X] `base = document.getElementsByTagName(“ul”)[0]; item = document.createElement(“li”); s = document.createElement(“span”); s.id = “cat”; s.textContent = “Nancy Drew (the cat)”; item.appendChild(s); base.appendChild(item)` 
+[X] `base = document.getElementsByTagName(“li”)[0].parentNode; item = document.createElement(“li”); s = document.createElement(“span”); s.id = “cat”; s.textContent = “Nancy Drew (the cat)”; item.appendChild(s); base.appendChild(item)` 
+[ ] `base = document.getElementsByTagName(“li”)[0].parentNode; item = document.createElement(“li”); s = document.createElement(“span#cat”); s.textContent = “Nancy Drew (the cat)”; item.addChild(s); base.addChild(item)`
 
 ?: What JavaScript command would return the name of the mongoose? Use `document.querySelector` to target the containing node.
 
