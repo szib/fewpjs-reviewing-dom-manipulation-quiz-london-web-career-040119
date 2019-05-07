@@ -25,7 +25,7 @@ Answer the questions below using the following code example.
 ( ) `let lunchOrder = "soup"`
 (X) `const lunchOrder = "rock salt"`
 
-?: Given a method called `razzle`, How do you trigger its behavior? Select all that apply:
+?: Given a method called `razzle`, how do you trigger its behavior? 
 
 ( ) `razzle` ( ) `razzle[]` ( ) `(razzle)()` (X) `razzle()`
 
