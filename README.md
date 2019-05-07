@@ -27,7 +27,7 @@ Answer the questions below using the following code example.
 
 ?: Given a method called `razzle`, How do you trigger its behavior? Select all that apply:
 
-( ) `razzle` ( ) `razzle[]` ( ) `(razzle)()` (X) `razzle()`
+( ) `razzle` ( ) `razzle[]` ( ) `(razzle)` (X) `razzle()`
 
 ?: In the HTML snippet above, select the JavaScript command that would select the node containing the text "Poodle."
 
