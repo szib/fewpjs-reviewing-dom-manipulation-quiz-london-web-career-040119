@@ -7,9 +7,9 @@ Answer the questions below using the following code example.
   <h1>List of pets ideal for city-dwellers</h1>
   <div>
     <ul>
-      <li><span id="dog">Poodle</li>
-      <li><span id="king-cobra">Nag</li>
-      <li><span id="mongoose">Joe Mongoose</li>
+      <li><span id="dog">Poodle</span></li>
+      <li><span id="king-cobra">Nag</span></li>
+      <li><span id="mongoose">Joe Mongoose</span></li>
    </ul>
   </div>
 </body>
